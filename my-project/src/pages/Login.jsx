@@ -13,14 +13,14 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 to-pink-500 flex flex-col text-white">
+    <div className="min-h-screen bg-gradient-to-br bg-[#f4eedcc7ced6] flex flex-col text-white">
       
       <Navbar />
 
       {/* Center Card */}
       <div className="flex-grow flex items-center justify-center px-6 py-16">
 
-        <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-2xl w-full max-w-md text-white">
+        <div className="bg-[#7e7c7f] backdrop-blur-md p-8 rounded-2xl shadow-2xl w-full max-w-md text-white">
 
           <h2 className="text-2xl font-bold text-center mb-6">
             Join a safer community
@@ -32,7 +32,7 @@ const Login = () => {
               onClick={() => setActiveTab("login")}
               className={`w-1/2 py-2 transition ${
                 activeTab === "login"
-                  ? "bg-white text-purple-600 font-semibold"
+                  ? "bg-white text-black font-semibold"
                   : "bg-transparent"
               }`}
             >
@@ -43,7 +43,7 @@ const Login = () => {
               onClick={() => setActiveTab("signup")}
               className={`w-1/2 py-2 transition ${
                 activeTab === "signup"
-                  ? "bg-white text-purple-600 font-semibold"
+                  ? "bg-white text-black font-semibold"
                   : "bg-transparent"
               }`}
             >
@@ -79,7 +79,7 @@ const Login = () => {
 
             <button
               type="submit"
-              className="w-full bg-white text-purple-600 py-3 rounded-lg font-semibold hover:bg-yellow-300 hover:text-black transition"
+              className="w-full bg-white text-black py-3 rounded-lg font-semibold hover:bg-[#dcdbda] hover:text-[#7e7c7f] transition"
             >
               {activeTab === "login" ? "Login" : "Create Account"}
             </button>

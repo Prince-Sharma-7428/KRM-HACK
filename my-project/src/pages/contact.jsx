@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 to-pink-500 flex flex-col text-white">
+    <div className="min-h-screen bg-gradient-to-br bg-white flex flex-col text-black">
       
       <Navbar />
 
@@ -23,7 +23,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
 
           {/* Contact Info */}
-          <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl">
+          <div className="bg-[#dcdbda] backdrop-blur-md p-8 rounded-2xl shadow-xl">
             <h2 className="text-2xl font-semibold mb-6">Get In Touch</h2>
 
             <div className="space-y-6 text-lg">
@@ -48,7 +48,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl">
+          <div className="bg-[#dcdbda] backdrop-blur-md p-8 rounded-2xl shadow-xl">
             <h2 className="text-2xl font-semibold mb-6">Send a Message</h2>
 
             <form className="space-y-5">
@@ -56,27 +56,27 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full p-3 rounded-lg bg-white/20 placeholder-white focus:outline-none"
+                className="w-full p-3 rounded-lg bg-white/20 placeholder-black-200 focus:outline-none"
                 required
               />
 
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-full p-3 rounded-lg bg-white/20 placeholder-white focus:outline-none"
+                className="w-full p-3 rounded-lg bg-white/20 placeholder-black-200 focus:outline-none"
                 required
               />
 
               <textarea
                 rows="4"
                 placeholder="Your Message"
-                className="w-full p-3 rounded-lg bg-white/20 placeholder-white focus:outline-none"
+                className="w-full p-3 rounded-lg bg-white/20 placeholder-black-200 focus:outline-none"
                 required
               ></textarea>
 
               <button
                 type="submit"
-                className="w-full bg-white text-purple-600 py-3 rounded-lg font-semibold hover:bg-yellow-300 hover:text-black transition"
+                className="w-full bg-white  py-3 rounded-lg font-semibold hover:bg-[#7e7c7f] text-[#7e7c7f] hover:text-white transition"
               >
                 Send Message
               </button>

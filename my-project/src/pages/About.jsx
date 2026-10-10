@@ -4,14 +4,14 @@ import Footer from "../components/Footer";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 to-pink-500 flex flex-col text-white">
+    <div className="min-h-screen bg-gradient-to-br bg-white  flex flex-col text-white">
       
       <Navbar />
 
       <div className="flex-grow p-6 md:p-12">
 
         {/* Header Section */}
-        <div className="bg-white text-gray-800 rounded-xl shadow-md p-8 mb-8">
+        <div className="bg-[#dcdbda] text-gray-800 rounded-xl shadow-md p-8 mb-8">
           <h1 className="text-3xl font-bold mb-4">
             Woman Safety Social Trust Score Map
           </h1>
@@ -26,7 +26,7 @@ const About = () => {
         {/* Stats Section */}
         <div className="grid md:grid-cols-2 gap-8 mb-8">
 
-          <div className="bg-white text-gray-800 rounded-xl shadow-md p-6">
+          <div className="bg-[#dcdbda] text-gray-800 rounded-xl shadow-md p-6">
             <h2 className="text-xl font-bold mb-4">Key Stats</h2>
 
             <ul className="space-y-4">
@@ -36,7 +36,7 @@ const About = () => {
             </ul>
           </div>
 
-          <div className="bg-white text-gray-800 rounded-xl shadow-md p-6">
+          <div className="bg-[#dcdbda] text-gray-800 rounded-xl shadow-md p-6">
             <h2 className="text-xl font-bold mb-4">Need Help?</h2>
 
             <div className="space-y-4">
